@@ -1,0 +1,37 @@
+
+
+.container, .container-md, .container-sm {
+    max-width: 720px;
+}
+.bodyPortfolio{
+    height: 1100px;
+   
+   
+  
+}
+
+.fw-bolder{
+
+    color: rgb(44, 62, 80);
+}
+img{
+    border-radius: 0;
+}
+.img{
+    position: relative;
+    overflow: hidden;
+
+}
+.layer{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+
+
+
+}
+.layer:hover{
+    opacity: 1;
+
+}
